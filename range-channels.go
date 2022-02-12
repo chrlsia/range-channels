@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//https://golang.gr/2022/02/11/range-channels/
+
 func main() {
 	//make a channel
 	ch := make(chan int)
@@ -20,3 +22,5 @@ func main() {
 		fmt.Println(j)
 	}
 }
+
+//next:buffered-channels
